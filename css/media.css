@@ -1,0 +1,178 @@
+
+/*===========
+ media query
+=============*/
+@media only screen and (max-width:576px) {
+    .container {
+        padding: 0vw 6vw;
+    }
+    .menuBar li a {
+        font-size: 2.2vw;
+    }
+    .topHeader {
+        flex-direction: column;
+    }
+    .menuBar {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 1rem;
+        gap: 1vw;
+    }
+    .homeParent {
+        margin-top: 6vw;
+    }
+    .featureTeamParents {
+        flex-direction: column;
+    }
+    .featureTeamChild {
+        width: 100%;
+    }
+    .FTCImg {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2.5vw;
+    }
+    .FTCImg {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5vw;
+    }
+    .FeaturesInfoChild {
+        width: 90%;
+    }
+    .FICImgInfo span {
+        padding: 3vw;
+        right: 82%;
+        transform: translate(-50%, -50%);
+    }
+    .FICImgInfo span b {
+        font-size: 4.2vw;
+    }
+    .FICImgInfo span {
+        padding: 3vw;
+        right: 66%;
+        transform: translate(-50%, -75%);
+    }
+    .factsParents h1 {
+        font-size: 4.3vw;
+    }
+    .factsChild {
+        width: 100%;
+        margin-bottom: 1.8rem;
+        box-shadow: 2px 3px 10px 0px #00000047;
+    }
+    .factsChild:hover{
+        box-shadow: -2px -3px 5px 0px #00000047;
+    }
+    section.facts {
+        margin: 12vw 0vw 2vw;
+    }
+    .factsParents p {
+        font-size: 2.2vw;
+        line-height: 3vw;
+    }
+    section.FeaturesInfo {
+        margin: 15vw 0vw 2vw;
+    }
+    .factsChild img {
+        width: 18%;
+    }
+    .FeaturesInfoChildMax p {
+        font-size: 1.9vw;
+        line-height: 3vw;
+    }
+    .FeaturesInfoChild h5 {
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+        margin: 4vw 0vw 3vw;
+    }
+    .FTCText p {
+        font-size: 2vw;
+        line-height: 2.8vw;
+    }
+    .factsChild h2 {
+        font-size: 4vw;
+    }
+    .factsChild h4 {
+        font-size: 2.2vw;
+    }
+    .FICImgInfo span p {
+    font-size: 2.5vw;
+}
+.homeParentChild p {
+    font-size: 2vw;
+    line-height: 3.3vw;
+}
+.homeParentChild a {
+    font-size: 2.1vw;
+}
+.FTCText a {
+    font-size: 2vw;
+}
+.FeaturesInfoChild h1 {
+    font-size: 4.5vw;
+    line-height: 6vw;
+}
+.FeaturesInfoChild h1::before {
+    height: 12vw;
+}
+.FeaturesInfoChildMax {
+    padding: 3vw 2vw;
+    margin: 4vw -1vw;
+}
+.topHeaderChild {
+    font-size: 3.8vw;
+    font-weight: 600;
+    color: #000;
+}
+.FeaturesInfoChildMax h3 {
+    font-size: 2.66666vw;
+}
+.SponsorTop h1 {
+    font-size: 4.5vw;
+    line-height: 8vw;
+}
+.SponsorTop p {
+    font-size: 2.5555vw;
+    line-height: 3.8vw;
+}
+.sponsorBottom {
+    flex-direction: column;
+    margin: 5vw 0vw 0vw;
+}
+.sponsorBottom img {
+    width: 30%;
+    margin: 2vw auto 2vw;
+}
+.footerBox {
+    width: 100%;
+}
+.footerBox p {
+    font-size: 2.2vw;
+    line-height: 3vw;
+}
+.footerBox span a {
+    font-size: 2vw;
+    margin: 1vw 0vw .8vw;
+}
+.footerboxIcon li a i {
+    font-size: 2.2vw;
+    padding: 1.3vw 1.5vw;
+}
+.footerBox h3 {
+    font-size: 3.5vw;
+    margin-bottom: 2vw;
+}
+.footerBox ul li a {
+    font-size: 2.2vw;
+    color: #4c4c4c;
+    margin: 1vw 0vw;
+}
+.footerBoxParents {
+    padding: 8vw 0rem;
+}
+.footer-02 p {
+    font-size: 2.2vw;
+    color: #fff;
+    padding: 1.5vw 0vw;
+}
+}
+/* END */
