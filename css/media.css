@@ -52,7 +52,7 @@
         transform: translate(-50%, -75%);
     }
     .factsParents h1 {
-        font-size: 4.3vw;
+        font-size: 4.5vw;
     }
     .factsChild {
         width: 100%;
@@ -104,6 +104,13 @@
 .homeParentChild a {
     font-size: 2.1vw;
 }
+.homeParentChild h1 {
+    font-size: 5.66666vw;
+    line-height: 6.8vw;
+}
+.homeParentChild img {
+    width: 100%;
+}
 .FTCText a {
     font-size: 2vw;
 }
@@ -127,7 +134,8 @@
     font-size: 2.66666vw;
 }
 .SponsorTop h1 {
-    font-size: 4.5vw;
+    font-size: 5.5vw;
+    text-decoration: underline;
     line-height: 8vw;
 }
 .SponsorTop p {
